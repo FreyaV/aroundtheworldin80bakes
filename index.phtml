@@ -1,0 +1,24 @@
+
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-md-12">
+  			<div class="page-header">
+  				<h1>
+  					Around the World in 80 Bakes
+  				</h1>
+  			</div>
+        <?php foreach($latest as $article) { ?>https://control.gridhost.co.uk/members/fileman.php?id=1249493#
+            <h1><?php echo $article['title']; ?></h1>
+  			<h3>
+
+  			</h3><img alt="Bootstrap Image Preview" src="http://lorempixel.com/140/140/" />
+  			<p>
+          <p><?php echo $article['body']; ?> -- <a href="view.php?id=<?php echo $article['id']; ?>">View</a></p>
+      <?php } ?>
+  		</div>
+  	</div>
+  </div>
+
+
+
+</div>
